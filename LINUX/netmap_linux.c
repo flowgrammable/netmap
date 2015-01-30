@@ -31,6 +31,7 @@
 #include <dev/netmap/netmap_mem2.h>
 #include <linux/rtnetlink.h>
 #include <linux/nsproxy.h>
+#include <net/ip6_checksum.h>   /* for csum_ipv6_magic() */
 
 #include "netmap_linux_config.h"
 
